@@ -1,12 +1,12 @@
 ---
 id: rfc-04
-title: Domain Model (V1)
+title: Domain Model (v1)
 status: draft
 date: 2025-12-09
 authors: openasso
 ---
 
-# RFC-04 — Domain Model (V1)
+# RFC-04 — Domain Model (v1)
 
 ## 1. Purpose
 
@@ -86,7 +86,7 @@ It provides the temporal frame for:
 Key properties:
 - Exercises are created annually.
 - Once closed, they serve as historical snapshots.
-- All V1 business data except Contacts is scoped to an Exercise.
+- All v1 business data except Contacts is scoped to an Exercise.
 
 ### 4.3 Activity
 
@@ -173,7 +173,7 @@ The model intentionally avoids introducing:
 - guardian/child relationship entities,
 - sections or groups,
 
-because they fall outside the V1 functional perimeter and would add structural complexity prematurely.
+because they fall outside the v1 functional perimeter and would add structural complexity prematurely.
 
 Future RFCs may extend the model with additional entities.
 
